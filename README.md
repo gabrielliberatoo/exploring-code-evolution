@@ -76,11 +76,25 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/sherlock-project/sherlock
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: Data structures
   
-3. Explicação: <EXPLICACAO_AQUI>
+3. Explicação: O gráfico revela a evolução estratégica no uso de estruturas de dados no projeto sherlock. As listas predominam (23→35 ocorrências), com pico em 2023 (+76%) seguido por otimizações. Tuplas apresentam padrão singular: após queda para 1-2 ocorrências (2021-2024), saltam para 15 em 2025 (+1400%), indicando adoção consciente de imutabilidade. Dicionários mantêm-se estáveis (11±1), refletindo seu papel específico e insubstituível.
+
+Esta trajetória demonstra:
+1. Fase inicial de experimentação (2020-2022)
+2. Expansão com listas durante crescimento (2023)
+3. Maturação com otimizações (2024-2025), especialmente na substituição estratégica de listas por tuplas
+
+A mudança radical em 2025 sugere:
+- Adoção de novas políticas de codificação
+- Preocupação com performance e segurança de dados
+- Possível influência de novas bibliotecas ou membros na equipe
+
+Correlações com outros gráficos:
+- Aumento de funções (34→52) criou necessidade por mais estruturas
+- Estabilidade em classes (4→10) mostra que o crescimento veio principalmente de código procedural
 
 
 
